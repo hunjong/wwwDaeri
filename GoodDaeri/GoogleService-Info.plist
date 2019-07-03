@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>418768241356-p4e59gu82ct6ag1nd4q6qrj7qshpv2k0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.418768241356-p4e59gu82ct6ag1nd4q6qrj7qshpv2k0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC52bFKKoYoQyxSXJglaLfrDwWfNtztiKU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>418768241356</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kdss.wawawadaeri</string>
+	<key>PROJECT_ID</key>
+	<string>chauffeurservice-1dd85</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chauffeurservice-1dd85.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:418768241356:ios:8e509ad3f9b2acf5</string>
+	<key>DATABASE_URL</key>
+	<string>https://chauffeurservice-1dd85.firebaseio.com</string>
+</dict>
+</plist>

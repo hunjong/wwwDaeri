@@ -1,0 +1,6 @@
+framework module Pods_GoodDaeriTests {
+  umbrella header "Pods-GoodDaeriTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

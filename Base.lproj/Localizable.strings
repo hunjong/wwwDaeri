@@ -1,0 +1,514 @@
+/*
+  Localizable.strings
+  GoodDaeri
+
+  Created by Choi Hunjong on 2018. 8. 2..
+  Copyright © 2018년 Choi Hunjong. All rights reserved.
+*/
+"로딩시 음성 안내" = "반갑습니다. 한국대리운전업협동조합입니다.";
+"알 림" = "알 림";
+"새 버전이 출시되었습니다. 지금 업데이트 하시겠습니까?";
+"업데이트" = "업데이트";
+"종료하시겠습니까?" = "종료하시겠습니까?";
+"정확한 위치를 파악을 위해 위치 서비스를 켜주세요." = "정확한 위치를 파악을 위해 위치 서비스를 켜주세요.";
+"나중에" = "나중에";
+"지금 설정" = "지금 설정";
+"먼저 목적지를 선택해 주세요." = "먼저 목적지를 선택해 주세요.";
+"대리기사를 찾고 있습니다. 조금만 기다려 주세요" = "대리기사를 찾고 있습니다. 조금만 기다려 주세요";
+"대리기사가 배정되었습니다." = "대리기사가 배정되었습니다.";
+
+"대리기사이동음성멘트" = "대리기사가 배정되어 가는 중이니 조금만 기다려 주세요.";
+"기다리는중음성멘트" = "접수가 완료 되었습니다. 기사를 찾는 동안 잠시만 기다려 주세요.";
+"카드음성멘트" = "카드번호와 만기일을 전송해 주세요.";
+"메인시작음성멘트" = "먼저 검색창을 눌러 도착지를 선택해 주세요.";
+
+"second" = "초";
+"서버 통신 에러입니다" = "서버 통신 에러입니다";
+
+
+//<!-- menu -->
+"menu_mypage" = "MY PAGE";
+"menu01" = "목적지 즐겨찾기";
+"menu02" = "이용내역";
+//사용
+"menu03" = "결제내역";
+"menu04" = "마일리지 내역";
+"menu05" = "설정";
+"menu_company" = "한국대리운전협동조합";
+"menu06" = "콜센터 연결";
+//사용
+"menu07" = "Contact us";
+//사용
+"menu08" = "공지사항";
+//사용
+"menu09" = "조합소개";
+//사용
+"menu10" = "오류신고";
+//사용
+"menu11" = "현금영수증 신청";
+
+
+//<!-- agreement -->
+"agree_more" = "전체보기";
+"agree_agreement_text" = "동의합니다.";
+
+"agree_01_tit" = "이용약관";
+
+"agree_02_tit" = "개인정보 사용에 관한 동의";
+
+"agree_03_tit" = "위치서비스 사용 동의";
+
+"agree_unchecked_message" = "약관에 동의하지 않으면 앱을 이용하실 수 없습니다";
+
+"agreement_all" = "전체동의";
+
+//<!-- recommendender -->
+"recom_title" = "추천인 코드";
+"recom_desc" = "추천인 코드를 입력해 주세요";
+"recom_hint" = "추천인코드가 있으면 다양한 혜택이 주어집니다.";
+
+//<!-- main -->
+"main_driver_text" = "기사";
+"main_start_text" = "출발";
+"main_relay_text" = "경유";
+"main_destnation_text" = "도착";
+"main_start_box_hint" = "출발지를 설정해 주세요";
+"main_relay_box_hint" = "경유지를 설정해 주세요";
+//사용
+"main_destnation_box_hint" = "도착지를 설정해 주세요";
+//사용
+"main_search_box_hint" = "를 클릭해서 목적지를 선택해 주세요";
+//사용
+"main_search_box_hint_waiting" = "기존 요청을 취소하면 새 요청이 가능합니다.";
+"main_order_phone" = "전화접수";
+//사용
+"main_order_action" = "가격조회";
+//사용
+"main_order_action2" = "접수하기";
+"main_relay_add" = "경유지\n추가";
+"main_relay_add2" = "경유지";
+
+"main_order_cost_adjust" = "가격조정";
+"main_order_paymethod_cash" = "현금결제";
+"main_order_paymethod_card" = "카드결제";
+"main_order_mileage_use" = "마일리지";
+"main_order_memo_hint" = "메모선택";
+
+"main_order_cartypemanual" = "수동변속기";
+"main_order_cartypeauto" = "자동변속기";
+
+"main_order_cartype_manual" = "수동변속기(스틱)";
+"main_order_cartype_auto" = "자동변속기(오토)";
+
+//사용
+"main_order_memo_0" = "안전운전 부탁드립니다";
+//사용
+"main_order_memo_1" = "여성기사를 보내주세요";
+//사용
+"main_order_memo_2" = "경유지가 있습니다";
+//사용
+"main_order_memo_3" = "빨리 와 주세요";
+//사용
+"main_order_memo_4" = "빨리 연락 주세요";
+//사용
+"main_order_memo_5" = "전화 주세요";
+//사용
+"main_order_memo_6" = "수동변속기(스틱) 차량입니다";
+//사용
+"main_order_memo_7" = "화물차량입니다";
+//사용
+"main_order_memo_8" = "승합차입니다";
+//사용
+"main_order_complete_message" = "요청하신 대리운전요청이 정상적으로 접수되었습니다.\n잠시 기다려주세요. 기사님을 찾고 있습니다.";
+//사용
+"main_order_before_message" = "요청된 대리운전 기록이 존재합니다.\n기사님을 찾을 때 까지 잠시 기다려주세요.";
+
+"main_order_mileage_use_message" = "<![CDATA[적립된 마일리지: <b>%1$s</b>포인트<br />사용가능 마일리지: <b><font color='#f26522'>%@</font></b>포인트<br /><br /><b><font size='16' color='#f26522'>%@포인트 사용</font></b><br /><br /><small>1회에 최대 %@포인트까지 사용 가능합니다.</small>]]>";
+
+//<!-- 기사응답대기 -->
+"waitcall_message" = "접수완료";
+"waitcall_finding_message" = "기사님을 찾는 중";
+"waitcall_complete_message" = "접수가 완료 되었습니다";
+"waitcall_hint" = "기사님이 배정될 때까지 잠시 기다려주세요";
+
+//사용
+"waitcall_question_cancel" = "접수를 취소할까요?";
+
+//<!-- 기사이동 모니터링 -->
+"waitdriver_message" = "기사님이 이동 중입니다.";
+
+//<!-- 배차완료 -->
+"connected_driver_title" = "배차완료";
+"connected_driver_message" = "%@ 기사님이 배차되어 이동중입니다.";
+"connected_driver_insure" = "보험정보: %@";
+"connected_driver_cancel" = "취소하기";
+
+//사용
+"connected_driver_from_cancel" = "기사로부터 콜 승인이 취소되었습니다.\n다른 기사의 콜 승인을 기다립니다.";
+//사용
+"connected_cancel_message" = "이 콜을 취소할까요?\n\n너무 늦게 취소하면 패널티가 주어집니다.";
+//사용
+"connected_finish_message" = "이용해주셔서 감사합니다.\n이용중 불편한 사항은 고객센터로 문의해주시기 바랍니다.\n\n기사님이 아직 도착하지 않았다면 잠시 기다려주시기 바랍니다.";
+
+"connected_response_error" = "배차 정보가 유효하지 않습니다.\n배차정보를 다시 기다립니다.";
+
+"cancel_successfule_message" = "취소되었습니다.\n\n이동중인 기사님에게 취소요청이 전달되었습니다.\n패널티가 발생할 수 있으니 신중한 이용 부탁드립니다.";
+
+"connected_driver_callback_message" = "기사님이 고객님이계신 장소로 이동중입니다.";
+
+//사용
+"connected_finish_driver_mesg" = "기사님이 근처에 도착하였습니다. 콜을 종료헙니다.";
+
+"search_range_tit" = "조회기간";
+
+//<!-- 이용내역 -->
+"usage_title" = "이용내역";
+"usage_favorites_added" = "즐겨찾기에 추가하였습니다.";
+"usage_favorites_exist" = "이미 추가된 지점입니다.";
+
+"history_search_bet" = "조회기간";
+"history_search_range1" = "최근 6개월";
+"history_search_range2" = "최근 1년";
+"history_search_range3" = "최근 2년";
+"history_search_range4" = "최근 3년";
+
+"payment_title" = "결제내역";
+"payment_value_format" = "%@원";
+
+"mileages_title" = "마일리지 내역";
+"mileages_value_format" = "%@P";
+"mileages_bottom_message" = "현재 보유 마일리지 <font color='#f26522'>%1$s</font> 포인트";
+
+//<!-- 목적지 즐겨찾기 -->
+"favorites_title" = "목적지 즐겨찾기";
+
+//<!-- SETUP -->
+"setup_title" = "설정";
+"setup_menu01_tit" = "알림받기";
+"setup_menu02_tit" = "SMS 문자수신";
+"setup_menu03_tit" = "이메일 발송";
+"setup_menu04_tit" = "전화(1566-1566)";
+"setup_menu05_tit" = "이용약관";
+"setup_menu06_tit" = "개인정보보호정책";
+"setup_menu07_tit" = "위치서비스 이용안내";
+
+//<!-- connection issue -->
+"conn_issue_desc1" = "네트워크 문제로 연결할 수 없습니다";
+"conn_issue_desc2" = "인터넷 연결상태를 확인해주세요.";
+
+//<!-- custom alert dialog -->
+"custom_dialog_default_mesg" = "Customized Dialog";
+
+"dialog_new_version" = "새 버전이 출시되었습니다.\n지금 업데이트 하시겠습니까?";
+"dialog_gps_setup" = "정확한 현 위치 파악을 위해 위치서비스를 켜 주세요.";
+"dialog_allow_noti" = "월활한 서비스 이용을 위하여 앱 알림을 허용해 주세요.";
+"dialog_do_exit" = "종료하시겠습니까?";
+
+"dialog_error_title" = "오류";
+"dialog_notify_title" = "알림";
+
+"dialog_mileage_title" = "적립 마일리지";
+"dialog_mileage_saved" = "적립된 마일리지";
+"dialog_mileage_use" = "사용 마일리지";
+"dialog_mileage_useable" = "사용가능 마일리지";
+
+//사용
+"dialog_mileage_unit" = "포인트";
+//사용
+"dialog_mileage_guide1" = "1회에 최대 %ld포인트까지 사용 가능합니다.";
+//사용
+"dialog_mileage_guide2" = "지금 %ld포인트를 사용할 수 있습니다.";
+//사용
+"dialog_mileage_empty" = "사용 가능한 마일리지가 없습니다.";
+//사용
+"dialog_mileage_already_use" = "이미 사용하셨습니다.\n마일리지는 호출당 %ld회 사용이 가능합니다.";
+
+"dialog_confirm_message_r" = "<font color='#999999'>호출내용이 맞는지 확인해 주세요</font>\n\n목적지: %@\n경유지: %@\n\n요금: <font color='#f26522'>%@원</font>\n\n결제: %@\n변속기: %@\n메모: %@";
+"dialog_confirm_message" = "<font color='#999999'>호출내용이 맞는지 확인해 주세요</font>\n\n목적지: %@\n\n요금: <font color='#f26522'>%@원</font>\n\n결제: %@\n변속기: %@\n메모: %@";
+
+"dialog_all_delete_mesg" = "모두 삭제할까요?";
+"dialog_choose_delete_mesg" = "선택한 항목을 삭제할까요?";
+
+//<!-- server -->
+"check_api_server" = "Checking Server..";
+"can_not_connect_server" = "Unable to contact server.";
+"server_loading_message" = "Contacting server...";
+"server_response_error" = "Unstable server connection.";
+
+"server_image_download" = "Loading images...";
+
+"server_json_data_error" = "서버오류입니다.";
+
+"server_json_string_error" = "데이터에 오류가 있습니다.";
+
+"server_json_empty_list" = "데이터가 없습니다.";
+
+"server_have_update" = "새 앱이 등록되어 있습니다.\n지금 업데이트할까요?";
+
+"setting_check_internet" = "An internet connection is required to use the service.";
+"setting_check_gps" = "GPS must be enabled to use the navigation service.";
+"setting_check_bluetooth" = "Bluetooth must be enabled to use indoor navigation and AR view.";
+
+"permission_gps_message" = "<![CDATA[If GPS is not turned on, \nYou can not use the navigation service. \n\nPlease turn on GPS in the device settings.]]>";
+"permission_ble_message" = "<![CDATA[If bluetooth is off, \nYou can not use indoor directions and AR view. \n\nPlease turn on Bluetooth in the device settings.]]>";
+"permission_phone_message" = "<![CDATA[If the phone status is unknown, some features may be limited.]]>";
+"permission_camera_message" = "<![CDATA[If you do not have camera usage rights, you can not use AR view.]]>";
+"permission_account_message" = "<![CDATA[Some functions may be restricted if access to the user information set on the phone is denied.]]>";
+"permission_storage_message" = "<![CDATA[If you do not have permission to use an external storage device, the app may not work properly.]]>";
+"permission_phonenumber_message" = "신속한 사용자 인증을 위하여 전화기의 전화번호를 확인합니다.";
+
+
+
+"progress_default_message" = "<![CDATA[Waiting...]]>";
+
+//사용
+"btn_yes" = "예";
+"btn_neutral" = "아니오";
+//사용
+"btn_no" = "아니오";
+//사용
+"btn_ok" = "확인";
+//사용
+"btn_cancel" = "취소";
+"btn_close" = "닫기";
+"btn_next" = "다음";
+"btn_create" = "생성";
+"btn_select" = "선택";
+"btn_open" = "열기";
+"btn_save" = "저장";
+"btn_delete" = "삭제";
+"btn_setting" = "설정";
+"btn_skip" = "건너뛰기";
+"btn_renew" = "새로고침";
+"btn_finish" = "종료";
+"btn_app_finish" = "앱 종료";
+"btn_7dayskeep" = "7일동안 보지않기";
+"btn_use" = "사용합니다";
+"btn_payment" = "결제요청";
+"btn_call_center" = "콜센터";
+"btn_cancel_order" = "접수취소";
+"btn_allright" = "맞습니다";
+"btn_wrong" = "틀립니다";
+"btn_detail" = "자세히보기";
+"btn_favorites" = "즐겨찾기";
+
+//<!-- sub_title -->
+"sub_title_text" = "Recent history";
+"sub_title_edit_text" = "Edit";
+
+//<!-- search_title -->
+"search_title_hint" = "장소, 건물명, 주소 검색";
+"search_tab0_tit" = "검색결과";
+"search_tab1_tit" = "최근목적지";
+"search_tab2_tit" = "즐겨찾기";
+"search_tab3_tit" = "지도찾기";
+
+//사용
+"search_bottom_cmd" = "편집";
+"search_bottom_alldelete_cmd" = "전체삭제";
+"search_bottom_delete_cmd" = "선택삭제";
+"search_bottom_choose" = "현 위치 선택하기";
+"search_move_map_hint" = "지도를 움직여 위치를 선택해 주세요";
+
+//사용
+"search_empty_result" = "찾을 수 없습니다.";
+
+//<!-- card payment -->
+"payment_card_title" = "카드 결제";
+"payment_card_order_tit" = "판매정보";
+"payment_card_product_name" = "상품명";
+"payment_card_product_value" = "결제금액";
+
+"payment_card_method_tit" = "결제카드정보";
+"payment_card_method_number" = "카드번호";
+"payment_card_method_expire" = "만기일";
+
+"payment_card_method_expire_month" = "월";
+"payment_card_method_expire_year" = "년";
+
+"payment_card_hint" = "입력하신 카드정보는 결제 완료 후 삭제됩니다";
+
+"payment_card_method_expire_choose" = "선택";
+
+"payment_card_unit" = "원";
+
+"payment_card_product_name_value" = "대리운전";
+
+"payment_card_require_values" = "입력된 결제정보에 오류가 있습니다.";
+
+"lost_response_data" = "데이터가 유실되었습니다.\n다시 호출해 주시기 바랍니다.";
+"lost_response_data_card" = "카드결제가 접수되지 않았습니다.";
+
+"hour_string" = "<![CDATA[%d hour %d minute]]>";
+"minute_string" = "<![CDATA[%d minute]]>";
+"under_minute_string" = "<![CDATA[Within 1 minute]]>";
+"meter_string" = "<![CDATA[%.2f km]]>";
+"formeter_string" = "<![CDATA[%d m]]>";
+"hour_string_bottom" = "<![CDATA[%d:%d]]>";
+"meter_string_bottom" = "<![CDATA[%.2f km]]>";
+
+//<!-- TTS -->
+"voice_tts_startup" = "Welcome to good chauffeur service.";
+
+//<!-- push -->
+"push_title" = "기사연결완료";
+"push_message" = "터치하시면 기사정보를 확인하실 수 있습니다.";
+
+
+
+///////valet//////////
+
+"permission_not_allowed" = "You must grant the necessary permissions to use this app.";
+
+
+"main_map_title" = "내 주변 발렛파킹";
+"main_list_title" = "발렛파킹 리스트";
+
+"main_view_list" = "목록으로 보기";
+"main_view_map" = "지도로 보기";
+
+"main_marker_me" = "나";
+"main_valet_marker_name" = "센터";
+
+"main_list_gps_hint" = "설정에서 GPS를 켜 주세요!";
+"main_list_gps_finding" = "위치확인중..";
+
+"main_list_empty_data" = "주변에 발렛센터가 없습니다.";
+
+"main_valet_value_tit" = "발렛요금:";
+"main_valet_distance_tit" = "내 위치부터 거리:";
+"main_valet_insurance_tit" = "발렛보험:";
+
+//"menu09" = "굿발렛파킹 소개";
+
+"agree_title" = "약관동의";
+"agree_tel_title" = "전화번호";
+"agree_car_title" = "차량번호";
+"agree_car_number_hint" = "00가1234";
+
+"agree_carnumber_message" = "차량번호를 입력하세요";
+
+
+"request_reserve" = "%@에 발렛을 예약할까요?";
+
+"select_navi_title" = "내비게이션 선택";
+"select_navi_item1" = "T Map";
+"select_navi_item2" = "원내비";
+"select_navi_item3" = "현대 Mappy";
+"select_navi_item4" = "카카오내비";
+
+"select_navi_not_found" = "내비게이션이 설치되어 있지 않습니다.\n지금 설치하시겠습니까?";
+"select_navi_empty_info" = "출발지 또는 목적지 정보가 없습니다.";
+
+"map_main_share_on_txt" = "위치공유";
+"map_main_share_off_txt" = "공유중지";
+
+"choose_valet_title" = "발렛선택";
+
+"history_valet_v_tit" = "발렛요금: ";
+"history_parking_v_tit" = "주차요금: ";
+
+
+
+//"favorites_title" = "발렛파킹 즐겨찾기";
+
+"setup_menu08_tit" = "차량번호";
+"setup_save_success" = "저장하였습니다.";
+
+"status_message" = "처리상태 메시지!";
+
+"connected_driver_title" = "접수완료";
+"connected_car_info_message" = "%@의 발렛파킹이 접수되었습니다.";
+
+//"connected_driver_cancel" = "접수취소";
+"connected_driver_call_phone" = "기사에게 전화";
+
+"connected_driver_valet" = "발렛기사가 배정되었습니다.";
+
+"connected_waiting_and_parked" = "이용중인 발렛정보가 있습니다.";
+
+//"connected_driver_from_cancel" = "죄송합니다. 기사로부터 발렛요청이 거부되었습니다.";
+
+//"connected_cancel_message" = "이 콜을 취소할까요?";
+
+
+"arrived_message" = "%@에 도착했습니다.";
+
+"driver_delevery_report_fail" = "실시간 위치를 공유하지 못했습니다.";
+"driver_location_reporting" = "이동정보를 공유하고 있습니다.";
+
+"complete_parking_title" = "주차완료";
+"complete_parking_descript" = "차량이 안전하게 주차되어 있습니다.\n출차를 원하실 때 아래의 [내차 호출하기] 버튼을 눌러 주세요";
+"complete_parking_call_car" = "내차찾기";
+
+"complete_parking" = "주차가 완료되었습니다.";
+
+"complete_detail_view_title" = "차량사진 (%@/%@)";
+
+"complete_called_car" = "호출이 완료되었습니다.";
+"complete_called_title" = "호출완료";
+"complete_called_body" = "차량이 호출되었습니다.";
+
+"waiting_payment_title" = "호출완료";
+"waiting_payment_message" = "차량을 준비하고 있습니다.";
+"waiting_payment_photo_desc" = "차량 인도시 촬영된 사진입니다.";
+"waiting_payment_driver_call_btn" = "기사에게 전화";
+"waiting_payment_complete_btn" = "차량도착대기";
+
+"paynow_mesg" = "주차요금을 지불해 주시기 바랍니다.\n 요금은 %d원 입니다.";
+
+"delivery_car" = "출차 진행중입니다.";
+"please_wait_delivery_car" = "출차를 진행하고 있습니다.\n잠시만 기다려주세요.";
+
+"payment_complete_message" = "이용해주셔서 감사합니다.";
+
+"callback_valet_message" = "차량이 준비되었습니다.\n지정된 인도장소에서 차량을 인도 받으시기 바랍니다.";
+"callback_valet_title" = "내차찾기";
+"callback_valet_myloc" = "위치";
+"callback_valet_arrive_time" = "도착";
+"callback_valet_payment" = "결제";
+"callback_valet_memo" = "메모";
+"callback_valet_memo_hint" = "메모를 입력해 주세요";
+"callback_valet_call_btn" = "호출하기";
+"callback_valet_arrive_time_text" = "도착";
+
+"callback_arrive_time_05" = "5";
+"callback_arrive_time_10" = "10";
+"callback_arrive_time_15" = "15";
+"callback_arrive_time_20" = "20";
+"callback_arrive_time_25" = "25";
+"callback_arrive_time_30" = "30";
+"callback_arrive_time_40" = "40";
+"callback_arrive_time_50" = "50";
+"callback_arrive_time_60" = "60";
+
+"waiting_delivery_car" = "기사가 차량을 준비하고 있습니다.\n잠시만 기다려주세요.";
+
+"last_check_car_status" = "차량의 이상 유무를 확인 하신 후\n차량 인수에 동의하여 주세요.";
+"last_agree_cust_name" = "고객이름";
+"last_agree_title" = "차량 인수동의";
+"last_agree_body" = "발렛주차를 맡긴 본인의 차량은 손상된 곳 없이 처음 상태 그대로 인계 받는 것에 동의합니다.";
+"last_agree_dt" = "동의일시: %@ ";
+"last_agree_addr" = "차량위치: %@ ";
+
+"require_agreement_name" = "이름을 입력해주세요.";
+
+"chaffeur_want_install_message" = "대리운전앱이 설치되어 있지 않습니다.\n설치하시겠습니까?";
+"chaffeur_want_doing_message" = "대리운전을 이용하시겠습니까?";
+
+"btn_call_phone" = "전화걸기";
+"btn_go" = "찾아가기";
+"btn_reserve" = "내차 맡기기";
+"btn_reserved_cancel" = "맡기기취소";
+"btn_carinfo_btn" = "차량상태/요청";
+"btn_carinfojust_btn" = "차량준비중";
+"btn_cashpay" = "현금/현장결제";
+"btn_not_agree" = "동의하지 않음";
+"btn_agree" = "동의함";
+"btn_modify" = "수정";
+
+"payment_card_product_title" = "주차요금";
+
+//"payment_card_product_name_value" = "발렛파킹";
+
+

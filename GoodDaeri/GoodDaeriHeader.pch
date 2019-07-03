@@ -1,0 +1,38 @@
+//
+//  GoodDaeriHeader.pch
+//  GoodDaeri
+//
+//  Created by Choi Hunjong on 2018. 5. 18..
+//  Copyright © 2018년 Choi Hunjong. All rights reserved.
+//
+
+#ifndef GoodDaeriHeader_pch
+#define GoodDaeriHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFNetworking.h"
+
+#import "GlobalVariable.h"
+
+static NSInteger BASIC_COLOR = 0x222E51;
+static NSInteger SECOND_COLOR = 0xF26522;
+static NSString *AGENCY_CODE = @"DR101212A";
+static NSString *RECOMMENDER_CODE = @"YES";
+static NSString *AGENCY_NAME = @"한국대리운전업협동조합";
+static NSString *AGENCY_PHONE_NUMBER = @"16442-16442";
+static NSString *AGENCY_ADDRESS = @"안천광역시 남동구 구월동 1131-13번지 백세빌딩 8층";
+static NSString *AGENCY_REPRESENTATIVE = @"이기복";
+
+static NSString *REQUEST_TYPE =     @"gs";
+static NSString *REQUEST_LOCALE =   @"ko";
+static NSString *WEBCONTENT_PATH =   @"driving";
+
+typedef void (^SimpleCallback)(void);
+static NSString *PRODUCT_NAME = @"대리운전";
+
+static NSString *cscenter_phone_number = @"telprompt://16882222";
+static NSString *APP_NAME =   @"와와와 대리운전";
+#endif /* GoodDaeriHeader_pch */
+
