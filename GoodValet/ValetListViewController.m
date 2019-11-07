@@ -13,6 +13,7 @@
 #import "ValetMainViewController.h"
 #import "responseData.h"
 #import "ValetListTableCell.h"
+#import "NetworkManager.h"
 
 @interface ValetListViewController () <UITableViewDataSource, UITableViewDelegate>
 {
@@ -100,9 +101,9 @@
     
     valetData *data = [destinationArray objectAtIndex:indexPath.row];
     cell.addressLabel.text = data.valet_addr;
-    cell.costLabel.text = data.valet_value;
+    cell.costLabel.text = [NSString stringWithFormat:@"%ld",(long)data.valet_value];
     cell.nameLabel.text = data.valet_center;
-    cell.distanceLabel.text = [self distance:data];
+    cell.distanceLabel.text = [NSString stringWithFormat:@"%ld",(long)[self distance:data]];
     [cell.callButton addTarget:self action:@selector(callButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [cell.detailButton addTarget:self action:@selector(detailButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     
@@ -142,6 +143,8 @@
 
 -(void)callButtonClicked:(UIButton*)sender
 {
+    //개발중
+    valetData *_targetValetData;
     NSString *tel = [NSString stringWithFormat:@"telprompt://%@",_targetValetData.valet_tel];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:tel]];
 }
@@ -177,8 +180,9 @@
 
 - (double) distance:(valetData *)data
 {
-    double driverLat = [data.driver_lat doubleValue];
-    double driverLon = [data.driver_lon doubleValue];
+    //개발중
+    double driverLat = [data.valet_lat doubleValue];
+    double driverLon = [data.valet_lon doubleValue];
     double myLat = [NetworkManager sharedInstance].myLatitude;
     double myLon = [NetworkManager sharedInstance].myLongitude;
     

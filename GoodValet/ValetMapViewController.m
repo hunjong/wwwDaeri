@@ -198,6 +198,10 @@
 - (UIView*)mapView:(TMapView *)mapView viewForCalloutView:(TMapMarkerItem2*)markerItem
 {
     
+    
+    
+    //개발중
+    return nil;
 }
 
 #pragma mark - Marker

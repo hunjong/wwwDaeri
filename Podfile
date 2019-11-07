@@ -42,11 +42,11 @@ end
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|
-        if target.name == 'SideMenu'
-            target.build_configurations.each do |config|
-                config.build_settings['SWIFT_VERSION'] = '4.2'
-            end
-        end 
+        #if target.name == 'SideMenu'
+        #    target.build_configurations.each do |config|
+        #        config.build_settings['SWIFT_VERSION'] = '4.2'
+        #    end
+        #end 
         #if target.name == 'PageMenu'
         #    target.build_configurations.each do |config|
         #        config.build_settings['SWIFT_VERSION'] = '5.0'
