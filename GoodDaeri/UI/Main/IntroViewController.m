@@ -12,6 +12,7 @@
 #import "NetworkManager.h"
 #import "CommonMessageView.h"
 #import "responseData.h"
+#import "AppDelegate.h"
 
 @interface IntroViewController () <CLLocationManagerDelegate>
 {
@@ -39,7 +40,7 @@
     else if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined)
     {
         
-        if([REQUEST_TYPE isEqualToString:@"gs"]){
+        if(((AppDelegate *)[[UIApplication sharedApplication]delegate]).isWaWaWaDaeri){
             if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)])
             {
 

@@ -500,15 +500,17 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
     [NetworkManager sharedInstance].uuid = uuidKeyChain;
 }
 
-static BOOL isDaeri()
+
+- (BOOL) isWaWaWaDaeri
 {
     return [REQUEST_TYPE isEqualToString:@"gs"];
 }
 
-static BOOL isValet()
+- (BOOL) isWaWaWaValet
 {
     return [REQUEST_TYPE isEqualToString:@"vs"];
 }
+
 
 - (void) resetAction
 {
@@ -658,7 +660,7 @@ static BOOL isValet()
                                 style:UIAlertActionStyleDefault
                                 handler:^(UIAlertAction * action) {
                                     //Handle your yes please button action here
-                                    NSString *iTunesLink = isDaeri() ? @"itms-apps://itunes.apple.com/app/id1434687876" : @"itms-apps://itunes.apple.com/app/id1455215095";
+                                    NSString *iTunesLink = self.isWaWaWaDaeri ? @"itms-apps://itunes.apple.com/app/id1434687876" : @"itms-apps://itunes.apple.com/app/id1455215095";
                                     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:iTunesLink]];
                                 }];
     

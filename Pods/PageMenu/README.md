@@ -1,16 +1,18 @@
 <img src="https://raw.githubusercontent.com/uacaps/ResourceRepo/master/PageMenu/PageMenuHeader3.png" alt="PageMenuHeader">
-========
 
 [![Version](https://img.shields.io/cocoapods/v/PageMenu.svg?style=flat)](http://cocoapods.org/pods/PageMenu)
 [![License](https://img.shields.io/cocoapods/l/PageMenu.svg?style=flat)](http://cocoapods.org/pods/PageMenu)
 [![Platform](https://img.shields.io/cocoapods/p/PageMenu.svg?style=flat)](http://cocoapods.org/pods/PageMenu)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-**Objective-C version in Beta**
+### Unfortunately, life gets in the way sometimes and I won't be able to maintain this library any longer and upgrade this library to where it needs to be.
 
-####Featured In
+#### Featured In
 <table>
  <tr>
+ <td align="center">
+  <a href="https://itunes.apple.com/us/app/whatsport-connecting-sports/id1091156941"><img src="http://is3.mzstatic.com/image/thumb/Purple122/v4/64/d2/ee/64d2ee82-150d-a6fd-ab65-ec8641a979a4/source/100x100bb.jpg" /></a>
+  </td>
   <td align="center">
   <a href="https://itunes.apple.com/us/app/funny-or-die/id299546679?mt=8"><img src="http://a2.mzstatic.com/us/r30/Purple3/v4/7b/34/8a/7b348a8b-54d9-e1b2-f50b-a447f6dff4be/icon100x100.jpeg" /></a>
   </td>
@@ -24,12 +26,14 @@
   <a href="https://itunes.apple.com/us/app/bboy-event/id1067848402?mt=8"><img src="http://a4.mzstatic.com/us/r30/Purple20/v4/67/26/04/6726041c-5685-7537-cb68-76939df51e30/icon100x100.jpeg" /></a>
   </td>
   <tr>
+   <td align="center"><b>WhatSport</b></td>
    <td align="center"><b>Funny Or Die</b></td>
    <td align="center"><b>Alabama MVD</b></td>
    <td align="center"><b>HEALTHFUL</b></td>
    <td align="center"><b>Bboy Event</b></td>
   </tr>
   <tr>
+   <td align="center">SportsQuack LLC</td>
    <td align="center">Funny Or Die, Inc.</td>
    <td align="center">CAPS</td>
    <td align="center">Junaid Younus</td>
@@ -39,6 +43,9 @@
 </table>
 
 ## Latest Update
+** 2.1.0 Release (11/06/2019)
+* Swift 5 upgrade
+
 
 **1.2.8 Release (06/22/2015)**
 * Bug fixes

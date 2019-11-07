@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73C0F5D13361F4F718618EA85464C153"
+               BlueprintIdentifier = "7C1BCF52BE76762240218D81954E0C88"
                BlueprintName = "Pods-GoodValet"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-GoodValet.framework">

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A748D04CF4998B8BCD1797FEE818D89"
+               BlueprintIdentifier = "CE9E0E491472C3870E2333614423CFC8"
                BlueprintName = "Pods-GoodDaeri"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-GoodDaeri.framework">

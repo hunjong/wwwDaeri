@@ -13,6 +13,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, readwrite) BOOL isWaWaWaDaeri;
+@property (nonatomic, readwrite) BOOL isWaWaWaValet;
+
 //Daeri
 @property (readwrite) BOOL isCallInfo;
 @property (readwrite) BOOL isCallCheckMade;
